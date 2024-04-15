@@ -55,4 +55,9 @@ If an error occurs (e.g., invalid input or division by zero), the server will re
 ### Logging
 ASMD Microservice logs each request and error with accurate time to the console and log files located in the logs directory. This logging mechanism aids in debugging and monitoring the microservice's behavior.
 
+### Containerization with Docker:
+The ASMD Microservice has been containerized using Docker, simplifying deployment and ensuring consistency across different environments.
+
+### Health Check:
+A health check has been implemented to monitor the microservice's status. It periodically sends requests to verify responsiveness and automatically handles failures, ensuring reliability.
 
